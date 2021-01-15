@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "shop-review-app",
+    "slug": "shop-review-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyB9b6BkR22uaAQn2ZQCxX9TH1NTsPSHfOU",
+        "authDomain": "shop-review-master.firebaseapp.com",
+        "projectId": "shop-review-master",
+        "storageBucket": "shop-review-master.appspot.com",
+        "messagingSenderId": "70197613872",
+        "appId": "1:70197613872:web:65b9bdc2206f68ac0364f5",
+        "measurementId": "G-QE286VE9VC"
+      },
+      "algolia": {
+        "appId": "EXB3T3UTSN",
+        "searchApiKey": "e0bfc9c09f02836c64b023ac90f769b2"
+      }
+    }
+  }
+}
