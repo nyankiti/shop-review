@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { StyleSheet, FlatList, SafeAreaView } from "react-native";
+import { StyleSheet, FlatList, SafeAreaView, View } from "react-native";
 /* lib */
 import { getShops } from "../lib/firebase";
 /* components */
@@ -23,8 +23,10 @@ export const HomeScreen = ({ navigation }: Props) => {
   const getFirebaseItems = async () => {
     const shops = await getShops();
     setShops(shops);
+    console.log(shops);
   };
 
+  // navigation.navigateの説明  https://reactnavigation.org/docs/params/ 
   const onPressShop = (shop: Shop) => {
     navigation.navigate("Shop", { shop });
   };
@@ -36,9 +38,10 @@ export const HomeScreen = ({ navigation }: Props) => {
         renderItem={({ item }: { item: Shop }) => (
           <ShopReviewItem shop={item} onPress={() => onPressShop(item)} />
         )}
+        // keyExtractorで番号を指定することでデータのidなどに沿ってitemを並び替えられる。 データがidなどのindexを持つときは、map関数のように第２引数にindexを取ることで自動でカウントしてくれる stringで指定する必要があるので注意
         keyExtractor={(item, index) => index.toString()}
         numColumns={2}
-      />
+      /> 
     </SafeAreaView>
   );
 };

@@ -13,6 +13,7 @@ type Props = {
   color?: string;
 };
 
+// React.FC React.FunctionComponent のショートハンド
 export const IconButton: React.FC<Props> = ({
   onPress,
   name,

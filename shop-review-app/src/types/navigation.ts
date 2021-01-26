@@ -1,4 +1,5 @@
 import { Shop } from "./shop";
+import { User } from './user';
 
 export type RootStackParamList = {
   Main: undefined;
@@ -7,4 +8,6 @@ export type RootStackParamList = {
   User: undefined;
   Search: undefined;
   CreateReview: { shop: Shop };
+  Chat: { user: User };
+  ChatUsers: undefined;
 };

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2852537d-ac82-48c2-bfa3-b8b3cc3956f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.expo/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/components/IconButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/components/IconButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/lib/firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/lib/firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/navigation/HomeStackNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/navigation/HomeStackNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/navigation/MainTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/navigation/MainTabNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/screens/HomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/screens/HomeScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/screens/ShopScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/screens/ShopScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/types/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/types/navigation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/types/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/types/user.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nUnkM2Sb27GyH1fkXI70U8iUks" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2852537d-ac82-48c2-bfa3-b8b3cc3956f6" name="Default Changelist" comment="" />
+      <created>1611453678892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611453678892</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-53" y="292" width="1095" height="495" key="AVDManager" timestamp="1611663462167">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-53" y="292" width="1095" height="495" key="AVDManager/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1611663462167" />
+    <state x="83" y="96" key="run.anything.popup" timestamp="1611625582832">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="83" y="96" key="run.anything.popup/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1611625582832" />
+  </component>
+</project>

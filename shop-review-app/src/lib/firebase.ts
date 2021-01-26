@@ -28,6 +28,23 @@ export const getShops = async () => {
   }
 };
 
+export const getUsers = async () => {
+  try {
+    const snapshot = await firebase
+      .firestore()
+      .collection("users")
+      .get();
+    const users = snapshot.docs.map(
+      (doc) => ({ ...doc.data(), id: doc.id } as User)
+    );
+    return users;
+  } catch (err) {
+    console.log(err);
+    return [];
+  }
+};
+
+
 export const signin = async () => {
   const userCredintial = await firebase.auth().signInAnonymously();
   const { uid } = userCredintial.user;

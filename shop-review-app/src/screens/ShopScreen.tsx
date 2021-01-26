@@ -16,6 +16,10 @@ type Props = {
   route: RouteProp<RootStackParamList, "Shop">;
 };
 
+// Navigation中のScreenコンポーネントは自動的にrouteというpropsが割り当てられており、
+// routeは、自動的に割り当てられるkey, MainTabNavigatorのところで指定するnameと、任意で自分で渡したいものを格納するためのparamasを持っている
+// このプロジェクトではroute.paramsを用いてshopの情報を画面遷移時に受け渡している
+
 export const ShopScreen: React.FC<Props> = ({ navigation, route }: Props) => {
   const { shop } = route.params;
   const { reviews, setReviews } = useContext(ReviewsContext);
