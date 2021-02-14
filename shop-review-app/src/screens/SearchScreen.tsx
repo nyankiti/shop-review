@@ -53,6 +53,7 @@ export const SearchScreen: React.FC<Props> = ({ navigation, route }: Props) => {
 
 const styles = StyleSheet.create({
   container: {
+    paddingTop: 50,
     flex: 1,
     backgroundColor: "#fff",
     justifyContent: "flex-start",

@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import { StyleSheet, SafeAreaView, Text, FlatList, View, TextInput, Button  } from "react-native";
+
 import * as firebase from "firebase";
 /* lib */
 import { getUsers } from "../lib/firebase";
@@ -38,7 +39,8 @@ export const ChatUsersScreen: React.FC<Props> = ({ navigation, route }: Props) =
   };
 
   const onPressUser = (user: User) => {
-    // ここのnavigateで指定した型のものがroute.paramsから取得できる?
+    // ここのnavigateで指定した型のものがroute.paramsから取得できる
+    // 画面遷移の処理はここではなく、ChatStackNavigatorで実装されている
     navigation.navigate("Chat", { user });
   };
 

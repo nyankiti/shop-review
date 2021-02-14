@@ -18,7 +18,7 @@ export const ChatStackNavigator = () => {
         <Stack.Screen
           name="ChatUsers"
           component={ChatUsersScreen}
-          options={{ headerShown: false }}
+          // options={{ headerShown: false }}
         />
         <Stack.Screen name="Chat" component={ChatScreen} />
       </Stack.Navigator>

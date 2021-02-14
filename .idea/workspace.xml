@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2852537d-ac82-48c2-bfa3-b8b3cc3956f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.expo/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-review-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-review-app/src/components/IconButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/components/IconButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-review-app/src/lib/firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/lib/firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/components/ChatUser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/components/ChatUser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/navigation/ChatStackNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/navigation/ChatStackNavigator.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-review-app/src/navigation/HomeStackNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/navigation/HomeStackNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-review-app/src/navigation/MainTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/navigation/MainTabNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-review-app/src/screens/HomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/screens/HomeScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-review-app/src/screens/ShopScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/screens/ShopScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-review-app/src/types/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/types/navigation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-review-app/src/types/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/types/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/screens/ChatScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/screens/ChatScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/screens/ChatUsersScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/screens/ChatUsersScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/screens/SearchScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/screens/SearchScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-review-app/src/screens/UserScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-review-app/src/screens/UserScreen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +44,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-53" y="292" width="1095" height="495" key="AVDManager" timestamp="1611663462167">
+    <state x="-53" y="292" width="1095" height="495" key="AVDManager" timestamp="1613264693391">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="-53" y="292" width="1095" height="495" key="AVDManager/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1611663462167" />
+    <state x="-53" y="292" width="1095" height="495" key="AVDManager/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1613264693391" />
+    <state x="-53" y="292" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1613212720079" />
     <state x="83" y="96" key="run.anything.popup" timestamp="1611625582832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

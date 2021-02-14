@@ -22,7 +22,7 @@ export const MainStack = () => {
       <Stack.Screen
         name="Home"
         component={HomeScreen}
-        options={{ headerShown: false }}
+        // options={{ headerShown: false }}
       />
       {/* ShopScreenでその店の詳細とレビューを表示 */}
       <Stack.Screen name="Shop" component={ShopScreen} />

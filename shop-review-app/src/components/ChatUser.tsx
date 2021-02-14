@@ -21,7 +21,7 @@ type Props = {
 export const ChatUser: React.FC<Props> = ( { user, onPress }: Props ) => {
   const { id, name, avatar, updatedAt, createdAt } = user;
   return (  
-    <TouchableOpacity style={styles.container} onPress={onPress}>
+    <TouchableOpacity style={styles.row} onPress={onPress}>
       <Image style={styles.avatar} source={{uri: avatar}} />
       <Text>{name} </Text>
     </TouchableOpacity>

@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { StyleSheet, FlatList, SafeAreaView, Text } from "react-native";
+import { GiftedChat } from 'react-native-gifted-chat';
 import * as firebase from "firebase";
 
 /* lib */
@@ -27,15 +28,46 @@ type Props = {
 
 
 export const ChatScreen: React.FC<Props> = ({ navigation, route }: Props) => {
-  // ChatUsersScreenからのパラメーターを受け取る
+  // ChatUsersScreenからのパラメーターに格納された選択中のユーザー情報を受け取る
   const { user } = route.params;
+
+  const [messages, setMessages] = useState([]);
 
   useEffect(() => {
     navigation.setOptions({ title: user.name });
 
-  }, [user]);
+    setMessages([
+      {
+        _id: 1,
+        text: 'Hello developer',
+        createdAt: new Date(),
+        user: {
+          _id: 2,
+          name: user.name ,
+          avatar: user.avatar,
+        },
+      },
+    ])
 
-// HomeScreenと同じような遷移を実装したい
+  }, []);
+
+
+  // ----------------------------------------------
+
+  const onSend = useCallback((messages = []) => {
+    setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
+  }, [])
+
+  return (
+    <GiftedChat
+      messages={messages}
+      onSend={messages => onSend(messages)}
+      user={{
+        _id: 1,
+      }}
+    />
+  )
+  // ------------------------------------------------
 
   return (
     <SafeAreaView style={styles.container}>
